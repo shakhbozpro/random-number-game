@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+   <title>Random number game</title>
+</head>
+
+<body class="text-bg-dark">
+
+   <div class="container">
+      <h1 class="my-5 text-center text-success">Find a random number</h1>
+      <form class="js-form w-75 mx-auto mb-4" method="POST" autocomplete="off">
+         <div class="d-flex align-items-center">
+            <input class="js-input form-control me-3" name="user_number" type="number" placeholder="Enter your number">
+            <button class="js-btn btn btn-success" type="submit">Find</button>
+         </div>
+      </form>
+
+      <div class="js-attampts alert alert-info w-75 mx-auto"></div>
+      <div class="js-answer alert w-75 mx-auto fw-semibold"></div>
+      <div class="js-random-number alert w-75 mx-auto"></div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+
+</html>
